@@ -14,5 +14,7 @@ until rolls_sum > 55 do
   rolls_sum = filtered_rolls.inject(:+)
 end
 
+draw(filtered_rolls, 1)
+
 result = filtered_rolls
 p result
